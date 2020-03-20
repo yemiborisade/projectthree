@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.form-group {
+  width: 60%;
+}
+
+.theForm{
+  padding: 70px;
+  margin-left: 240px;
 }
 
 .App-logo {
