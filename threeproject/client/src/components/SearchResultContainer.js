@@ -9,9 +9,20 @@ class SearchResultContainer extends Component {
     results: []
   };
 
+/*   componentDidMount() {
+    this.searchDeezer("Drake");
+  } */
+ /*  {this.setState({ results: res.data });
+  console.log(res);
+  } 
+  };*/
   searchDeezer = query => {
     API.search(query)
-      .then(res => console.log(res))
+      .then(res => {
+        this.setState({ results: res.data.data })
+        console.log(res.data.data);
+        
+  })
       .catch(err => console.log(err));
   };
 
@@ -23,7 +34,7 @@ class SearchResultContainer extends Component {
     });
   };
 
-  // When the form is submitted, search the Giphy API for `this.state.search`
+  // When the form is submitted, search the Deezer API for `this.state.search`
   handleFormSubmit = event => {
     event.preventDefault();
     this.searchDeezer(this.state.search);
