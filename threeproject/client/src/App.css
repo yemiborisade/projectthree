@@ -18,6 +18,15 @@
   margin-left: 240px;
 }
 
+.list-group-item {
+  font-family: 'Teko', sans-serif;
+  color: red;
+  font-size: x-large;
+  border-style: double;
+  border-width: unset;
+  border-color: antiquewhite;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

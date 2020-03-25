@@ -7,7 +7,7 @@ function SearchForm(props) {
     <h1>Issa. Vibe.</h1>
     <Form>
       <div className="theVibeSearch">
-        <Label for="searchMusic">Search. Music. Artist. Song.</Label>
+        <Label for="searchMusic">Search. Music. Artist. Album. Song.</Label>
         <Input
           onChange={props.handleInputChange}
           value={props.search}

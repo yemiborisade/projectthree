@@ -19,7 +19,7 @@ class SearchResultContainer extends Component {
   searchDeezer = query => {
     API.search(query)
       .then(res => {
-        this.setState({ results: res.data.data })
+        this.setState({ results: res.data.data });
         console.log(res.data.data);
         
   })
