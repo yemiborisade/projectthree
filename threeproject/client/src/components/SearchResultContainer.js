@@ -9,13 +9,10 @@ class SearchResultContainer extends Component {
     results: []
   };
 
-/*   componentDidMount() {
+  componentDidMount() {
     this.searchDeezer("Drake");
-  } */
- /*  {this.setState({ results: res.data });
-  console.log(res);
-  } 
-  };*/
+  }
+
   searchDeezer = query => {
     API.search(query)
       .then(res => {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from 'reactstrap';
 
 function ResultList(props) {
     return (
@@ -17,6 +18,7 @@ function ResultList(props) {
             <img alt={result.album.cover} className="img-album" src={result.album.cover_medium}/>
           </li>
         ))}
+        <Button>Play</Button>
       </ul>
     );
   }
