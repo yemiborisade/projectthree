@@ -7,6 +7,10 @@
   width: 60%;
 }
 
+#thought-box {
+  width: 100%;
+}
+
 .theForm{
   padding: 70px;
   margin-left: 240px;

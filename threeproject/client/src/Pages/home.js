@@ -1,5 +1,8 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
+import {Link} from 'react-router-dom';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import firebase from 'firebase';
 
 function Home() {
     return (
@@ -17,7 +20,7 @@ function Home() {
         </FormGroup>
         </Form>
         </Container>
-        <Button> Submit.</Button>
+        <Link to="/pagetwo"><Button> Submit.</Button></Link>
         <br></br>
         <br></br>
         <br></br>
@@ -25,10 +28,10 @@ function Home() {
         <p>Welcome to Issa Vibe. Whether it's a Friday night out on the town with friends or Saturday morning filled with chores, Issa Vibe can provide you with the music to put you in the right mood. Join now to catch a vibe. </p>
         </Container> 
         </div>
- 
-
     );
   }
   
+
+
   export default Home;
 
