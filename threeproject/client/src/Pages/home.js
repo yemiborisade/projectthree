@@ -7,7 +7,7 @@ import firebase from 'firebase';
 function Home() {
     return (
         <div className="App">
-        <h1>Issa. Vibe.</h1>
+        <h1>Issa. hhhhVibe.</h1>
         <Container className="theForm">
       <Form>
         <FormGroup>
