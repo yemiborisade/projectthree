@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from 'reactstrap';
+import {Link} from 'react-router-dom';
 
 function ResultList(props) {
     return (
@@ -18,7 +19,7 @@ function ResultList(props) {
             <img alt={result.album.cover} className="img-album" src={result.album.cover_medium}/>
           </li>
         ))}
-        <Button>Play</Button>
+        <Link to="/pagethree"><Button> The. Forum.</Button></Link>
       </ul>
     );
   }

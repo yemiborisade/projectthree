@@ -8,11 +8,11 @@ function Discussion() {
         <Container className="theForm">
       <Form>
         <FormGroup>
-          <Label for="exampleEmail">Name</Label>
-          <Input type="email" name="email" id="author" placeholder="Enter.Name.Here." />
+          <Label for="exampleEmail">Issa. Username.</Label>
+          <Input type="email" name="email" id="author" placeholder="Enter.Username.Here." />
         </FormGroup>
         <FormGroup>
-          <Label for="examplePassword">Thoughts</Label>
+          <Label for="examplePassword">Issa. Thought.</Label>
           <br></br>
           <textarea type="password" name="password" id="thought-box" placeholder="Enter.Thoughts.Here." />
         </FormGroup>
